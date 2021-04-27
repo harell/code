@@ -1,5 +1,7 @@
 # Example application code for the python architecture book
 
+[![Python package](https://github.com/harell/order-allocation/actions/workflows/python-package.yml/badge.svg)](https://github.com/harell/order-allocation/actions/workflows/python-package.yml)
+
 ## Chapters
 
 Each chapter has its own branch which contains all the commits for that chapter,
