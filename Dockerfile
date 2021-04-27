@@ -1,6 +1,8 @@
 FROM python:3.9-slim-buster
 
-# RUN apt install gcc libpq (no longer needed bc we use psycopg2-binary)
+RUN apt-get update -qq && apt-get -y --no-install-recommends install \
+    build-essential \
+    git
 
 COPY requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
