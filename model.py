@@ -12,15 +12,26 @@ class OrderLine:
     Attributes:
         orderid The maximum speed that such a bird can attain.
         sku     A product is identified by a SKU, pronounced "skew", which is 
-                short for stock-keeping unit.
-        qty     Quantity.
+                a short for stock-keeping unit.
+        qty     Quantity requested.
     """
     orderid: str
     sku: str
     qty: int
 
+
 class Batch:
-    def __init__(self, ref: str, sku:str, qty:int, eta:Optional[date]):
+    """The purchasing department orders small batches of stock. A batch of stock
+    has a unique ID called a reference, a SKU, and a quantity.
+
+    Attributes:
+        ref     Batch unique ID.
+        sku     A product is identified by a SKU, pronounced "skew", which is
+                short for stock-keeping unit.
+        qty     Quantity requested.
+        eta     Estimated time of batch arrival.
+    """
+    def __init__(self, ref: str, sku: str, qty: int, eta: Optional[date]):
         self.reference = ref
         self.sku = sku
         self.eta = eta
