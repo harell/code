@@ -1,6 +1,7 @@
 # Example application code for the python architecture book
 
 [![Python package](https://github.com/harell/order-allocation/actions/workflows/python-package.yml/badge.svg)](https://github.com/harell/order-allocation/actions/workflows/python-package.yml)
+[![codecov](https://codecov.io/gh/harell/order-allocation/branch/master/graph/badge.svg?token=PfnSNVliPP)](https://codecov.io/gh/harell/order-allocation)
 
 ## Chapters
 
