@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/vscode/devcontainers/anaconda:0-3
 
 RUN conda install -y -c anaconda make
+RUN conda install -y -c conda-forge docker-compose
 
 COPY requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt

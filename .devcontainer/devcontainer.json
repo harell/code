@@ -14,7 +14,6 @@
 	"extensions": [
 		"ms-python.python",
 		"streetsidesoftware.code-spell-checker",
-		"ms-vscode.makefile-tools",
 		"visualstudioexptteam.vscodeintellicode",
 		"hbenl.vscode-test-explorer",
 		"stkb.rewrap",
