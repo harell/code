@@ -1,3 +1,5 @@
+all: test
+
 test:
 	pytest --tb=short
 
