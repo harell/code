@@ -1,7 +1,10 @@
-all: test
+all: test coverage
 
 test:
 	pytest --tb=short
+
+coverage:
+	pytest --cov
 
 watch-tests:
 	ls *.py | entr pytest --tb=short
