@@ -37,4 +37,3 @@ def test_cannot_allocate_if_skus_do_not_match():
     batch = Batch("batch-001", "UNCOMFORTABLE-CHAIR", 100, eta=None)
     different_sku_line = OrderLine("order-123", "EXPENSIVETOASTER", 10)
     assert batch.can_allocate(different_sku_line) is False
-    
